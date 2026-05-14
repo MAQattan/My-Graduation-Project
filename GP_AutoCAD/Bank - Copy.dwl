@@ -1,3 +1,0 @@
-ASUS
-LAPTOP-992IDLB0 
-Friday, May 8, 2026  11:37:42 PM
