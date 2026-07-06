@@ -2,9 +2,3 @@
 
 ![[PV-08-01.png]]
 
-**كلمات مفتاحية للصور التوضيحية**
-
-- Solar panel tilt angle beta diagram
-- Incident solar radiation components vertical parallel
-- PV module horizontal vs tilted ray capture diagram
-- Solar radiation geometry tilt angle schematic

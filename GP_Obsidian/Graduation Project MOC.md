@@ -1,7 +1,5 @@
 
-[[Thesis MOC|Thesis]]
-[[Presentation MOC|Presentation]]
-[[Accessories MOC]] 
+## [[Thesis MOC]] | [[Presentation MOC]] | [[Accessories MOC]] 
 
 ---
 

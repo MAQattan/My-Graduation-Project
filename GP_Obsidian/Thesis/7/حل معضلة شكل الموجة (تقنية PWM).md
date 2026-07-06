@@ -16,9 +16,3 @@ $$
 
 يؤدي هذا النمط المتغير في عرض النبضات إلى تشكيل موجة تظهر في التحليل الهيكلي على هيئة "درجات سلم" (Stepped Wave)، وكلما زاد عدد النبضات (Switching Frequency) التي يوفرها ترانزستور الـ **IGBT**، أصبحت هذه الدرجات أصغر وأكثر انسيابية، مما يجعل الموجة النهائية مطابقة كلياً للموجة الجيبية النقية. وبذلك، تضمن تقنية **PWM** تقليل التوافقيات (Harmonics) إلى أدنى مستوياتها، مما يحمي المحركات من الحرارة الزائدة ويمنع تلف الأجهزة الإلكترونية الحساسة، محققةً بذلك التوافق التام بين مصادر الطاقة الشمسية ومتطلبات الأحمال الحديثة.
 
-**كلمات مفتاحية للصور التوضيحية**
-
-- Pulse Width Modulation PWM inverter principle diagram
-- Average voltage integration PWM waveform graph
-- Pure sine wave synthesis from PWM pulses schematic
-- Square wave vs PWM modified sine wave comparison

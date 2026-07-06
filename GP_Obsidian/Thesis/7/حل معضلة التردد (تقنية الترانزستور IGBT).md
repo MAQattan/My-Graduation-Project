@@ -8,9 +8,3 @@
 
 ![[PV-07-05.png]]
 
-**كلمات مفتاحية للصور التوضيحية**
-
-- IGBT transistor switching principle in inverters.
-- Power electronics IGBT internal structure diagram.
-- Inverter frequency control logic schematic.
-- Comparison of mechanical switch vs IGBT switching speed.

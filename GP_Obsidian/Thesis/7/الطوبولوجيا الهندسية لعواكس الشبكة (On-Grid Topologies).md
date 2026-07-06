@@ -18,9 +18,3 @@ Central Inverters
 
 ![[PV-07-18.png]]
 
-**كلمات مفتاحية للصور التوضيحية**
-
-- Micro vs String vs Central inverter topology diagram
-- Multi-string inverter MPPT inputs schematic
-- Solar PV system shade tolerance comparison graph
-- On-grid inverter architecture cost and efficiency table
