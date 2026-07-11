@@ -91,5 +91,5 @@
 
 // 5. Academic Year Footer
 #align(center)[
-  #text(size: 13pt, weight: "medium")[1448 هـ  —  2026 م]
+  #text(size: 13pt, weight: "medium")[2026 م  —  1448 هـ]
 ]

@@ -1,8 +1,13 @@
-// --- إعدادات صفحة الغلاف المستقلة ---
+
+#set par(justify: false) // Disable the justify property to avoid stretched English text in bad way
+
+
 #set page(
   paper: "a4",
   fill: rgb("#383B64"), // الدرجة الفخمة التي اخترتها
-  margin: (top: 3.5cm, bottom: 2.5cm, left: 2.5cm, right: 4.5cm)
+  margin: (top: 3.5cm, bottom: 2.5cm, left: 2.5cm, right: 4.5cm),
+  footer: none, // Disable inherited footer and header from the main file completely
+  header: none
 )
 #set text(font: "IBM Plex Sans Arabic", fill: white, dir: rtl)
 
