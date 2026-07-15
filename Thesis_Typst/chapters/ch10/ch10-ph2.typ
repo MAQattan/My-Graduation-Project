@@ -53,7 +53,7 @@
         inset: 10pt,
         align: (right + horizon, center + horizon),
         stroke: 0.5pt + rgb("#E2E8F0"),
-        fill: (col, row) => if row == 0 { rgb("#1B365D") } else if calc.even(row) { rgb("#F8FAFC") } else { none },
+        fill: (col, row) => if row == 0 { rgb("#383B64") } else if calc.even(row) { rgb("#F8FAFC") } else { none },
         
         table.header(
           text(fill: white, weight: "bold", size: 11pt)[المعامل الفني والكهربائي (Parameter)],

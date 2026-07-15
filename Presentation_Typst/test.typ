@@ -5,19 +5,6 @@
 
 #slide[
   #set align(horizon)
-  #block(
-    width: 100%,
-    inset: (x: 15pt, y: 12pt),
-    radius: 6pt,
-    fill: rgb("637A9F").lighten(92%),
-    stroke: (right: 4pt + rgb("637A9F")), 
-    [
-      #set text(size: 15.5pt, style: "italic")
-      نص الختام
-    ]
-  )
-
-  #v(0.5cm) 
 
   #align(center)[
     #block(
@@ -27,7 +14,7 @@
       inset: (top: 25pt, bottom: 28pt, x: 20pt),
       fill: white,
       [
-        #text(size: 26pt, weight: "bold", fill: rgb("637A9F"))[شكر وتقدير]
+        #text(size: 30pt, weight: "bold", fill: rgb("637A9F"))[شكر وتقدير]
         #v(0.6em)
         #text(size: 18pt, weight: "medium", fill: gray.darken(50%))[
           نتقدم بخالص الشكر والامتنان إلى جميع المشرفين على رمايتهم العلمية وتوجيهاتهم القيمة \
@@ -45,9 +32,9 @@
 
   #place(
     bottom + center,
-    dy: -10pt,
+    dy: -40pt,
     [
-      #set text(size: 12.5pt, fill: gray.darken(20%), weight: "medium")
+      #set text(size: 15pt, fill: gray.darken(50%), weight: "medium")
       #grid(
         columns: (1fr, 1fr),
         gutter: 220pt, 

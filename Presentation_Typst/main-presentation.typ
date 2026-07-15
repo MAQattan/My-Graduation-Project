@@ -12,8 +12,6 @@
 
 
 
-
-
 #show figure.caption: it => {
   set text(size: 9pt, fill: gray.darken(85%))
   strong([#it.supplement #context it.counter.display(it.numbering)])
