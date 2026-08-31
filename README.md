@@ -118,6 +118,7 @@ The string layout consists of **3 Strings of 13 Modules** each. To isolate local
 - **Earthing Grid (IEEE 80 & Dwight’s Formula):** Designed for a target resistance of $R_e \le 3.98\ \Omega$ ($< 5\ \Omega$ standard code). The grid consists of **10 vertical flemish-copper-clad steel rods** (Length $L = 2.5\text{ m}$, Diameter $d = 16\text{ mm}$) spaced 5m apart, buried at 0.8m, and interconnected with a $50\text{ mm}^2$ bare copper conductor.
 
 ![Single line diagram](images/SLD.png)
+> **[📄 Click here to download or view the complete single-line diagram in high-resolution PDF format.](images/SLD.pdf)**
 
 ### 4.7. Bill of Materials (BOM)
 
