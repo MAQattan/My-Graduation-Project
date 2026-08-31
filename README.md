@@ -1,10 +1,11 @@
 # Design and Performance Analysis of a Grid-Tied Solar PV System
 
+[![CAD: AutoCAD](https://img.shields.io/badge/CAD-AutoCAD_2024-blue.svg)](https://www.autodesk.com)
+![Software](https://img.shields.io/badge/PVsyst-v7.2.21-navy?style=flat-square)
+![Standard](https://img.shields.io/badge/Standard-IEC_60364-lightgrey?style=flat-square)
 ![Capacity](https://img.shields.io/badge/Capacity-23.40_kWp-blue?style=flat-square)
 ![PR](https://img.shields.io/badge/Performance_Ratio-89.30%25-brightgreen?style=flat-square)
 ![Yield](https://img.shields.io/badge/Annual_Yield-44.02_MWh-orange?style=flat-square)
-![Software](https://img.shields.io/badge/PVsyst-v7.2.21-navy?style=flat-square)
-![Standard](https://img.shields.io/badge/Standard-IEC_60364-lightgrey?style=flat-square)
 
 A highly optimized engineering design and dynamic performance analysis of a **23.40 kWp grid-tied rooftop solar photovoltaic system**. Designed for a critical banking facility in Aleppo, Syria, this project resolves the structural and electrical matching challenges of urban solar integration under complex spatial constraints.
 
