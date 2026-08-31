@@ -64,7 +64,7 @@ $$H_{shadow}\ (0.763\text{ m}) < H_{collector_min}\ (1.173\text{ m})$$
 
 This confirms the shadow passes entirely below the active cells, eliminating hotspot risks and seasonal mismatch losses.
 
-![[images/PV-10-11.png]]
+![AutoCAD drawing showing shadow projections for the stairwell and the central air conditioning unit.](images/PV-10-11.png)
 
 ### 4.3. Photovoltaic Module Specifications
 
@@ -104,7 +104,7 @@ The string layout consists of **3 Strings of 13 Modules** each. To isolate local
     - _Max operating current:_ $2 \times 13.44\text{ A} = 26.88\text{ A} \le 30.00\text{ A}$ (Inverter limit).
 - **MPPT 2:** 1 string (13 modules) placed in the eastern zone, which experiences temporary lateral shadows from the stairwell. This prevents shading losses on the eastern string from dragging down the performance of the unshaded strings.
 
-![[images/PV-11-03.png]]
+![Configuring components and string layout in PVsyst](images/PV-11-03.png)
 
 ### 4.6. Cable Sizing, Protections & Grounding Grid
 
@@ -117,7 +117,7 @@ The string layout consists of **3 Strings of 13 Modules** each. To isolate local
     - _Main Bank Circuit Breaker:_ $63\text{ A}$, 4-pole MCCB, $\ge 25\text{ kA}$ breaking capacity.
 - **Earthing Grid (IEEE 80 & Dwight’s Formula):** Designed for a target resistance of $R_e \le 3.98\ \Omega$ ($< 5\ \Omega$ standard code). The grid consists of **10 vertical flemish-copper-clad steel rods** (Length $L = 2.5\text{ m}$, Diameter $d = 16\text{ mm}$) spaced 5m apart, buried at 0.8m, and interconnected with a $50\text{ mm}^2$ bare copper conductor.
 
-![[images/SLD.pdf]]
+![Single line diagram](images/SLD.png)
 
 ### 4.7. Bill of Materials (BOM)
 
@@ -140,6 +140,7 @@ The following table summarizes the primary structural and electrical equipment s
 ## 5. Results & Analysis
 
 The simulated performance metrics of the grid-tied system:
+
 ### 📊 PVsyst Simulation Yield Indicators (Aleppo Site)
 
 | Metric                         |      Symbol       |   Value    |     Unit     |
@@ -154,7 +155,7 @@ The simulated performance metrics of the grid-tied system:
 - **Annual Energy Yield ($E_{Grid}$):** The system feeds **$44.02\text{ MWh/year}$** of clean power into the bank's local distribution network and the public utility grid.
 - **Performance Ratio (PR):** Achieves an annual **${} 89.30\%$ PR**. Under cold, clear sky winter conditions (January), the system hits peak performance with a **${} 94.80\%$ PR** due to reduced module thermal degradation. Conversely, high summer temperatures (July) degrade $V_{mp}$, driving the PR down to **${} 85.80\%$**.
 
-![[images/PV-11-09.png]]
+![System Output Power Distribution](images/PV-11-09.png)
 
 ### 5.2. Daily Normalized Performance
 
@@ -162,7 +163,7 @@ The simulated performance metrics of the grid-tied system:
 - **Collection Losses ($L_c$):** **$0.52\text{ kWh/kWp/day}$** is lost due to thermal module degradation, minor dust buildup, and wiring resistance.
 - **System Losses ($L_s$):** Just **$0.09\text{ kWh/kWp/day}$** is lost during inverter DC-to-AC conversion.
 
-![[images/PV-11-07.png]]
+![Normalized productions](images/PV-11-07.png)
 
 ### 5.3. PVsyst Loss Diagram Breakdown
 
@@ -178,7 +179,7 @@ The complete transformation chain from raw irradiance to useful grid energy, as 
 8. **Inverter Conversion Efficiency Loss:** **${} -1.72\%$** (driven by the high ${} 98.40\%$ peak efficiency of the Huawei unit).
 9. **Final Energy Injected to Grid:** **$44.02\text{ MWh}$**.
 
-![[images/PV-11-08.png]]
+![Loss Diagram](images/PV-11-08.png)
 
 ## 6. Conclusion & Future Work
 
